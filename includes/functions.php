@@ -16,6 +16,8 @@ function connectAcount($conn, $email, $password) {
         }
 
     } catch (PDOException $e) {
+
+    
         echo $e->getMessage();
     }
 }
