@@ -30,10 +30,10 @@
 <?php endif; ?>
 
 <form  action="../scripts/authprocess.php" method="POST">
-    <label for="">nom :</label>
+    <label for="">first name :</label>
 
 <input type="text" name="nom" placeholder="EX : aloui" class=" w-full mb-3 p-2 border rounded" >
-<label for="">prenon:</label>
+<label for="">:</label>
 <input type="text" name="prenom" placeholder="EX: mohamed" class="w-full mb-3 p-2 border rounded" >
 <label for="">email :</label>
 <input type="email" name="email"  placeholder="EX: asmaenna@gmail.com" class="w-full mb-3 p-2 border rounded" >
