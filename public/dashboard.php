@@ -1,10 +1,17 @@
+<?php
+    include('../includes/header.php');
+
+    ?>
+
+<main class="flex-grow container mx-auto p-6">
+    <h2 class="text-xl font-semibold mb-4">Bienvenue  👋</h2>
+    
+    
+  </main>
 
 
-<h1>
-    Bonjour 
-</h1>
+<?php
+    include('../includes/footer.php');
+    
+    ?>
 
-
-
-
-git 

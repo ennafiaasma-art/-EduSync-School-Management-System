@@ -30,19 +30,22 @@
 <?php endif; ?>
 
 <form  action="../scripts/authprocess.php" method="POST">
+    <label for="">nom :</label>
 
-<input type="text" name="nom" placeholder="Nom" class=" w-full mb-3 p-2 border rounded" >
-
-<input type="text" name="prenom" placeholder="Prénom" class="w-full mb-3 p-2 border rounded" >
-
-<input type="email" name="email" placeholder="Email" class="w-full mb-3 p-2 border rounded" >
-
-<input type="password" name="password" placeholder="Password" class="w-full mb-3 p-2 border rounded" >
-
-<input type="password" name="passwordRepeat" placeholder="Repeat Password" class="w-full mb-3 p-2 border rounded" >
+<input type="text" name="nom" placeholder="EX : aloui" class=" w-full mb-3 p-2 border rounded" >
+<label for="">prenon:</label>
+<input type="text" name="prenom" placeholder="EX: mohamed" class="w-full mb-3 p-2 border rounded" >
+<label for="">email :</label>
+<input type="email" name="email"  placeholder="EX: asmaenna@gmail.com" class="w-full mb-3 p-2 border rounded" >
+<label for="">password : </label>
+<input type="password" name="password"  placeholder="••••••••" class="w-full mb-3 p-2 border rounded" >
+<label for="">conferm password : </label>
+<input type="password" name="passwordRepeat"  class="w-full mb-3 p-2 border rounded" >
 
 <button type="submit" name="register" class="w-full bg-green-600 text-white p-2 rounded">
-    Sign up
+    Sign in 
+    
+   
 </button>
 
 </form>
